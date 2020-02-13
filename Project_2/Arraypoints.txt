@@ -1,0 +1,11 @@
+//All you need to do is copy this text into your file and change the name of the two arrays
+//If you also copy the last line (page.fillPolygon(xloc_changethisname,yloc....) make sure your
+//Graphics object is called page and make sure you change the 3 array names inside the fillPolygon method 
+
+//********X*********
+int[] xloc_changethisname = {currentx+128,currentx+151,currentx+131,currentx+162,currentx+127,currentx+143,currentx+115,currentx+115,currentx+104,currentx+75,currentx+92,currentx+64,currentx+100,currentx+70,currentx+111,currentx+108,currentx+127};
+
+//********Y*********
+int[] yloc_changethisname = {currenty+129,currenty+143,currenty+118,currenty+111,currenty+97,currenty+77,currenty+86,currenty+63,currenty+83,currenty+72,currenty+93,currenty+110,currenty+113,currenty+145,currenty+132,currenty+153,currenty+129};
+
+page.fillPolygon(xloc_changethisname,yloc_changethisname,xloc_changethisname.length);
